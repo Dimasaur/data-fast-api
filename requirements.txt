@@ -40,3 +40,5 @@ uvicorn
 # tests
 httpx
 pytest-asyncio
+
+numpy
