@@ -29,12 +29,7 @@ def predict(
     Assumes `pickup_datetime` implicitly refers to the "US/Eastern" timezone (as any user in New York City would naturally write)
     """
     prediction = {
-        'pickup_datetime': '2014-07-06 19:18:00',
-        'pickup_longitude': -73.950655,   
-        'pickup_latitude': 40.783282,     
-        'dropoff_longitude': 73.984365,   
-        'dropoff_latitude': 40.769802, 
-        'passenger_count' : 1
+        'fare' : 14.710600943237969
         }
 
     return prediction
@@ -45,4 +40,3 @@ def root():
         'greeting' : 'Hello'
         }
     return hello
-    
